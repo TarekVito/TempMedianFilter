@@ -22,7 +22,6 @@ int main()
 		threshold(foreground1,foreground1,50,255,CV_THRESH_BINARY);
 
 		imshow("Background1",foreground1);
-		//imshow("Background2",foreground2);
 		waitKey(10);
 	}
 }
